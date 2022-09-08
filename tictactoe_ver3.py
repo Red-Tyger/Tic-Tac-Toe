@@ -9,10 +9,6 @@ def pickChar(cellvalue):
     ochar = ["        ","  OOOO  "," OO  OO "," OO  OO "," OO  OO ","  OOOO  ","        "]
     bcell = ["        ","        ","        ","        ","        ","        ","        "]
     
-    Achar = ["        ","   AA   ","  A  A  "," AAAAAA "," AA  AA "," AA  AA ","        "]
-    Bchar = ["        "," BBBBB  "," BB  BB "," BBBBB  "," BB  BB "," BBBBB  ","        "]
-    Cchar = ["        ","  CCCC  "," CC  CC "," CC     "," CC  CC ","  CCCC  ","        "]
-    
     if cellvalue == "x":
         return xchar
     elif cellvalue == "o":
